@@ -14,6 +14,10 @@ section {
   margin: 100px 0;
 }
 
+li {
+  margin-bottom: 0;
+}
+
 @-webkit-keyframes pulse {
     from {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -112,6 +116,10 @@ section {
       font-size: 20px;
     }
   }
+}
+
+.about-section {
+  margin: 40px 0;
 }
 
 .icons-header {
