@@ -3,4 +3,3 @@ _site
 node_modules
 .DS_STORE
 .idea
-assets/css
