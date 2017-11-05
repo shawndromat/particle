@@ -1,0 +1,25 @@
+-
+  headline: I'm an experienced full stack web developer
+  details: I can move comfortably from CSS and JavaScript, through well crafted APIs, down to the database. I can then take it all, stand up a CI/CD pipeline and deploy it using Cloud Native best practices.
+-
+  headline: I believe in the craft of code
+  details: I think code should be readable, reusable, modular and well-tested, all in service of creating codebases which are easy to maintain and extend.
+-
+  headline: I believe that good teams are as important as good code
+  details: Within the development team, I believe in collective ownership of code in order to facilitate knowledge sharing, code quality and to prevent silos. I also love working closely with product managers and designers in small, cross-functional, self-organizing teams. Collaboration across disciplines is crucial to making products that are not only well-engineered, but also provide business and user value.
+-
+  headline: "Practices I believe in:"
+  detailList:
+    - Test Driven Development
+    - Continuous Integration and Continuous Deployment
+    - Iterative development
+    - Building lean with rapid feedback cycles
+    - User-centered design
+-
+  headline: "Some technologies I have used:"
+  detailList:
+  - Ruby, Rails
+  - JavaScript (ES2015+), React
+  - Java, Spring
+  - HTML5, CSS3, Sass
+  - Git, Docker, Cloud Foundry

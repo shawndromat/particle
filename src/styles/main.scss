@@ -10,6 +10,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+section {
+  margin: 100px 0;
+}
+
 @-webkit-keyframes pulse {
     from {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -173,20 +177,23 @@ body {
   }
 }
 
-.user {
-  text-align: center;
-  margin: 20px auto;
+.dev-icons {
   font-size: 60px;
-  p {
-    font-size: 16px;
-  }
   @media only screen and (min-width: $cut) {
     font-size: 75px;
   }
 }
 
-.user-details {
+.user {
   text-align: center;
+  margin: 20px auto;
+  p {
+    font-size: 16px;
+  }
+
+}
+
+.user-details {
   font-size: 16px;
   margin: 10px auto;
 }
@@ -281,4 +288,16 @@ body {
       color: $sec;
     }
   }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
