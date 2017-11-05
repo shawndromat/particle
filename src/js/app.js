@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 150,
+        "value": 30,
         "density": {
           "enable": true,
           "value_area": 800
@@ -16,14 +16,22 @@ document.addEventListener("DOMContentLoaded", function () {
         "value": "#ffffff"
       },
       "shape": {
-        "type": "circle",
+        "type": "polygon",
         "stroke": {
           "width": 0,
           "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        },
+        "image": {
+          "src": "img/github.svg",
+          "width": 100,
+          "height": 100
         }
       },
       "opacity": {
-        "value": 0.3,
+        "value": 0.5,
         "random": false,
         "anim": {
           "enable": false,
@@ -43,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       },
       "line_linked": {
-        "enable": false,
+        "enable": true,
         "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
@@ -69,8 +77,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "detect_on": "window",
       "events": {
         "onhover": {
-          "enable": true,
-          "mode": "bubble"
+          "enable": false,
+          "mode": "grab"
         },
         "onclick": {
           "enable": true,
@@ -86,10 +94,10 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         },
         "bubble": {
-          "distance": 300,
-          "size": 4,
+          "distance": 400,
+          "size": 40,
           "duration": 2,
-          "opacity": .6,
+          "opacity": 8,
           "speed": 3
         },
         "repulse": {
