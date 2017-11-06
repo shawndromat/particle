@@ -1,0 +1,11 @@
+<div class="six columns">
+  <h5>{{include.project.title}}</h5>
+  <ul>
+    {% for technology in include.project.technologies %}
+      <li>{{ technology }}</li>
+    {% endfor %}
+  </ul>
+  <p>{{ include.project.description }}</p>
+  <a class="project-link" href="{{include.project.liveLink}}">View it live</a>
+  <a class="project-link" href="{{include.project.githubLink}}">View on Github</a>
+</div>

@@ -215,39 +215,24 @@ li {
     border-radius: 5px;
   }
   h5 {
-    margin: 0;
+    margin: 0 0 15px;
   }
-  li {
-    color: $main;
-    font-size: 1.1rem;
+  ul {
+    margin-bottom: 2rem;
+
+    li {
+      color: $main;
+    }
   }
   p {
     margin-right: 5px;
   }
 }
 
-.images {
-  @media only screen and (min-width: $cut) {
-    float: right;
-  }
-  img {
-    @media only screen and (min-width: $cut) {
-      float: right;
-    }
-  }
-}
-
-.contents {
-  @media only screen and (min-width: $cut) {
-    margin-left: 0;
-  }
-}
-
 .project-link {
-  display: block;
-  width: 100px;
-  margin: 10px 0px;
-  padding: 5px;
+  display: inline-block;
+  margin: 10px 3px;
+  padding: 7px 10px;
   color: $main;
   background-color: transparent;
   border: 1px solid $main;

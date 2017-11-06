@@ -1,0 +1,18 @@
+-
+  title: 2048
+  image: "assets/img/2048.png"
+  description: A clone of the popular 2048 game built from the ground up (no forking around 😜 )
+  technologies:
+  - ES6, React, Sass
+  liveLink: http://shawndromat.github.io/2048/
+  githubLink: https://github.com/shawndromat/2048
+  num: 1
+-
+  title: Jim Jam Crafts
+  image: "assets/img/jimjamcrafts.png"
+  description: A file download site to accompany physical diy crafting kits from Jim Jam Crafts. Download codes are generated and sent out with each kit. Upon receipt of their kits, customers can enter their download code to retrieve their pdf pattern. Try it out and get a free pattern of BMO from Adventure Time. Just visit the site and hit the "Click here for free BMO pattern" button
+  technologies:
+  - Ruby, Rails, Angular
+  liveLink: http://jimjamcrafts.herokuapp.com
+  githubLink: https://github.com/shawndromat/jimjamcrafts
+  num: 2
