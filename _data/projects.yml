@@ -10,7 +10,7 @@
 -
   title: Jim Jam Crafts
   image: "assets/img/jimjamcrafts.png"
-  description: A file download site to accompany physical diy crafting kits from Jim Jam Crafts. Download codes are generated and sent out with each kit. Upon receipt of their kits, customers can enter their download code to retrieve their pdf pattern. Try it out and get a free pattern of BMO from Adventure Time. Just visit the site and hit the "Click here for free BMO pattern" button
+  description: A file download site to accompany physical diy crafting kits from my Etsy store Jim Jam Crafts. Download codes are generated and sent out with each kit. Upon receipt of their kits, customers can enter their download code to retrieve their pdf pattern. Try it out and get a free pattern of BMO from Adventure Time. Just visit the site and hit the "Click here for free BMO pattern" button
   technologies:
   - Ruby, Rails, Angular
   liveLink: http://jimjamcrafts.herokuapp.com
