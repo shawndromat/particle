@@ -229,6 +229,21 @@ li {
   }
 }
 
+.coming-soon {
+  position: relative;
+  img {
+    opacity: .45;
+  }
+
+  .project-title {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+  }
+}
+
+
+
 .project-link {
   display: inline-block;
   margin: 10px 3px;
