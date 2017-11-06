@@ -11,6 +11,7 @@
   headline: "Practices I believe in:"
   detailList:
     - Test Driven Development
+    - Pair programming
     - Continuous Integration and Continuous Deployment
     - Iterative development
     - Building lean with rapid feedback cycles
