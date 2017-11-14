@@ -205,6 +205,11 @@ li {
 .user-details {
   font-size: 16px;
   margin: 10px auto;
+  ul {
+    list-style-position: inside;
+    text-indent: -1.5em;
+    margin-left: 1.5rem;
+  }
 }
 
 .user-projects {

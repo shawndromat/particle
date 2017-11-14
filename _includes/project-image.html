@@ -1,11 +1,13 @@
+{% if include.project.liveLink != '' %}
+<div class="six columns">
+  <img alt="mountains" src="{{ include.project.image | prepend: site.baseurl }}"/>
+</div>
+{% else %}
 <div class="six columns coming-soon">
-  {% if include.project.liveLink != '' %}
-  <img alt="mountains" src="{{ include.project.image | prepend: site.baseurl }}" />
-  {% else %}
-  <img alt="mountains" src="{{ include.project.image | prepend: site.baseurl }}" />
+  <img alt="mountains" src="{{ include.project.image | prepend: site.baseurl }}"/>
   <div class="project-title text-center">
     <h3>{{include.project.title}}</h3>
     <h5>coming soon</h5>
   </div>
-  {% endif %}
 </div>
+{% endif %}

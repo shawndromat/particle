@@ -3,9 +3,9 @@
   image: assets/img/impactful.png
   description: "A tool for taking cold, hard facts from the news and making them more personally meaningful. It's one thing to hear that '250,000 jobs have been created' and it's another to realize that that equals the entire county you live in. Planned features: location-based contextualization, Chrome plugin to enrich reading experiences"
   technologies:
-  - Ruby, Rails, JavaScript
+  - JavaScript
   liveLink: ''
-  githubLink: https://github.com/shawndromat/impactful
+  githubLink: https://github.com/shawndromat/impactful-js
 -
   title: 2048
   image: assets/img/2048.png
